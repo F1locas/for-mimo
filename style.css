@@ -1,0 +1,45 @@
+body {
+    background-color: whitesmoke;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2rem;
+    font-family: 'Dynalight';
+    color: #696969;
+}
+
+.content, details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: #696969 dashed 1px;
+    padding: 0.5rem;
+    overflow-wrap: break-word;
+}
+
+h1 {
+    font-size: 8rem;
+    margin-bottom: 1rem;
+}
+
+.text-value {
+    margin-top: 1rem;
+    padding-top: 0;
+}
+
+input {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color: #696969;
+    border: 3px solid #696969;
+    border-radius: 1rem;
+    cursor: pointer;
+}
